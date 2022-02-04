@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css" />
-    <title>Contador</title>
+    <title>To-do List</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Este é o meu primeiro projeto Javascript.</p>
-    <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
+    <h1>TO-DO LIST</h1>
+    <p>Lista de tarefas, utilizando JS e CSS.</p>
+    <div id="add-lista"">
+        <input type="text" placeholder="Adicione itens a lista:" name="add-item" id="add-item-box" required>
+        <button name="adicionar" onclick="increment()">Adicionar</button>
+    </div>
+    <div class="a_fazer">
+        <label for="tarefas">A fazer: </label>
     </div>
     <script src="assets/scripts.js"></script>
 </body>

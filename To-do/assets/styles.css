@@ -5,6 +5,16 @@
     color: darkslategray;
 }
 
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding: 1%;
+    border-radius: 5%;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -14,17 +24,19 @@ body {
 }
 
 button {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 2px solid darkgreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 5%;
+    border: 1px solid darkslategray;
     background-color: gainsboro;
-    color: darkgreen;
-    font-size: 16pt;
+    color: darkslategray;
+    font-size: 8pt;
     font-weight: 600;
     text-align: center;
 }
-
+div {
+    padding-top: 2%;
+}
 #counter {
     display: flex;
 }
